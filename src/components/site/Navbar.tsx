@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Dumbbell } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import  logo from "@/assets/logo.png";
 
 const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#services", label: "Programs" },
-  { href: "#trainers", label: "Trainers" },
   { href: "#transformations", label: "Results" },
   { href: "#pricing", label: "Pricing" },
   { href: "#contact", label: "Contact" },
@@ -31,12 +31,8 @@ export function Navbar() {
     >
       <nav className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2 group">
-          <div className="size-9 rounded-md bg-primary grid place-items-center red-glow">
-            <Dumbbell className="size-5 text-white" />
-          </div>
-          <div className="leading-tight">
-            <div className="font-display text-lg tracking-wider">FERRO</div>
-            <div className="text-[10px] text-muted-foreground -mt-1 tracking-[0.3em]">FITNESS · ERODE</div>
+          <div className="logo">
+            <img src={logo} alt="Ferro Fitness logo" height={70} width={90}/>
           </div>
         </a>
 

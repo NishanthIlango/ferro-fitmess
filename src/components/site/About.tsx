@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
-import gym from "@/assets/gym-interior.jpg";
+import gym from "@/assets/about.png";
 
 const points = [
   "State-of-the-art imported equipment",
@@ -13,8 +13,8 @@ const points = [
 
 export function About() {
   return (
-    <section id="about" className="relative py-24 lg:py-32">
-      <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-16 items-center">
+    <section id="about" className="relative py-24 lg:py-32 bg-primary/60">
+        <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}

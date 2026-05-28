@@ -38,7 +38,6 @@ function Index() {
         <Hero />
         <About />
         <Services />
-        <Trainers />
         <Transformations />
         <Pricing />
         <Testimonials />

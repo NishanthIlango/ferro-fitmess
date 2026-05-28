@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/heros.png";
 
 export function Hero() {
   return (
@@ -23,13 +23,13 @@ export function Hero() {
           className="max-w-3xl"
         >
           <div className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs uppercase tracking-[0.25em] mb-6">
-            <span className="size-1.5 rounded-full bg-primary animate-pulse" />
+            <span className="size-1.5 rounded-full green-glow animate-pulse" />
             Erode's Premium Fitness Destination
           </div>
 
           <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl leading-[0.95] mb-6">
             Forge Your <br />
-            <span className="text-gradient-red">Iron Body</span>
+            <span className="text-yellow">Iron Body</span>
           </h1>
 
           <p className="text-lg text-foreground/80 max-w-xl mb-10 leading-relaxed">

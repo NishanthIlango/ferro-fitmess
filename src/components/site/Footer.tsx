@@ -1,17 +1,14 @@
 import { Dumbbell, Instagram, Facebook, MessageCircle } from "lucide-react";
+import  logo from "@/assets/logos.png";
 
 export function Footer() {
   return (
     <footer className="border-t border-white/5 bg-card/40">
       <div className="mx-auto max-w-7xl px-6 py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="size-9 rounded-md bg-primary grid place-items-center"><Dumbbell className="size-5" /></div>
-            <div>
-              <div className="font-display text-lg tracking-wider">FERRO FITNESS</div>
-              <div className="text-[10px] text-muted-foreground tracking-[0.3em]">ERODE</div>
+            <div className="logo">
+              <img src={logo} alt="Ferro Fitness logo" height={100} width={110}/>
             </div>
-          </div>
           <p className="text-sm text-muted-foreground leading-relaxed">
             Erode's premium fitness destination. Building stronger bodies and stronger mindsets since day one.
           </p>
